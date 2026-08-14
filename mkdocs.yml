@@ -1,0 +1,30 @@
+site_name: Architecture Lab
+site_description: Cloud Architecture, Platform Engineering, DevSecOps and AI
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Architecture:
+      - Three-Tier LAMP:
+          - Overview: architecture/three-tier-lamp/index.md
+          - Architecture: architecture/three-tier-lamp/architecture.md
+          - Data Flow: architecture/three-tier-lamp/data-flow.md
+          - Security: architecture/three-tier-lamp/security.md
+          - Availability: architecture/three-tier-lamp/availability.md
+          - Decisions: architecture/three-tier-lamp/decisions.md
