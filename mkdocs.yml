@@ -1,8 +1,15 @@
 site_name: Architecture Lab
 site_description: Cloud Architecture, Platform Engineering, DevSecOps and AI
+site_author: Chandra Sekhar Merugu
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
 
 plugins:
   - search
@@ -20,6 +27,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+
   - Architecture:
       - Three-Tier LAMP:
           - Overview: architecture/three-tier-lamp/index.md
