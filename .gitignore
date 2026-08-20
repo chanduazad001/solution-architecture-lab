@@ -8,6 +8,9 @@ site/
 __pycache__/
 *.py[cod]
 
+# Working notes / drafts not ready for the public site
+docs/ideas/
+
 # IDE
 .vscode/
 
