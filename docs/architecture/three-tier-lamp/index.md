@@ -14,120 +14,21 @@ The architecture is designed to provide scalability, availability, security, and
 
 ---
 
-## Architecture at a Glance
-
-```mermaid
-flowchart TB
-
-    USER["Users"]
-
-    LB["Load Balancer"]
-
-    subgraph WEB["WEB TIER"]
-        WEB01["WEB01<br/>Linux + Apache"]
-        WEB02["WEB02<br/>Linux + Apache"]
-    end
-
-    subgraph APP["APPLICATION TIER"]
-        APP01["APP01<br/>Linux + PHP"]
-        APP02["APP02<br/>Linux + PHP"]
-    end
-
-    subgraph DB["DATABASE TIER"]
-        DB01["DB01<br/>Linux + MySQL/MariaDB"]
-        DB02["DB02<br/>Linux + MySQL/MariaDB"]
-    end
-
-    USER --> LB
-
-    LB --> WEB01
-    LB --> WEB02
-
-    WEB01 --> APP01
-    WEB02 --> APP02
-
-    APP01 --> DB01
-    APP02 --> DB02
-```
-
----
-
 ## Architecture Layers
 
-### Web Tier
+The solution separates presentation, business logic, and persistent data
+into three tiers, front-ended by a load balancer:
 
-The Web Tier provides the entry point for application traffic.
+| Tier              | Technology              | Servers       |
+| ----------------- | ------------------------ | ------------- |
+| Web Tier          | Linux + Apache           | WEB01, WEB02  |
+| Application Tier  | Linux + PHP              | APP01, APP02  |
+| Database Tier     | Linux + MySQL/MariaDB    | DB01, DB02    |
 
-**Technology**
+The Application and Database tiers are isolated from direct user access.
 
-* Linux
-* Apache HTTP Server
-
-**Servers**
-
-* WEB01
-* WEB02
-
-**Responsibilities**
-
-* Receive HTTP/HTTPS requests
-* Serve static content
-* Handle web-server processing
-* Forward dynamic application requests
-* Apply web-server security controls
-* Participate in load-balanced traffic
-
----
-
-### Application Tier
-
-The Application Tier contains the application business logic.
-
-**Technology**
-
-* Linux
-* PHP
-
-**Servers**
-
-* APP01
-* APP02
-
-**Responsibilities**
-
-* Execute PHP application code
-* Process business logic
-* Validate application requests
-* Communicate with the database
-* Generate dynamic responses
-
-The Application Tier is isolated from direct user access.
-
----
-
-### Database Tier
-
-The Database Tier provides persistent application data storage.
-
-**Technology**
-
-* Linux
-* MySQL or MariaDB
-
-**Servers**
-
-* DB01
-* DB02
-
-**Responsibilities**
-
-* Store application data
-* Process SQL queries
-* Maintain transactions
-* Provide database availability
-* Support backup and recovery
-
-The Database Tier is not directly accessible from the user network.
+See [Architecture](architecture.md) for the full component diagram, tier
+responsibilities, communication paths, and trust boundaries.
 
 ---
 
