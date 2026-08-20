@@ -41,3 +41,10 @@ nav:
           - Security: architecture/three-tier-lamp/security.md
           - Availability: architecture/three-tier-lamp/availability.md
           - Decisions: architecture/three-tier-lamp/decisions.md
+      - Three-Tier LAMP on Kubernetes:
+          - Overview: architecture/three-tier-lamp-kubernetes/index.md
+          - Architecture: architecture/three-tier-lamp-kubernetes/architecture.md
+          - Data Flow: architecture/three-tier-lamp-kubernetes/data-flow.md
+          - Security: architecture/three-tier-lamp-kubernetes/security.md
+          - Availability: architecture/three-tier-lamp-kubernetes/availability.md
+          - Decisions: architecture/three-tier-lamp-kubernetes/decisions.md

@@ -124,3 +124,11 @@ The following concerns will be designed separately:
 * Infrastructure automation
 
 These concerns are documented in the subsequent architecture sections.
+
+---
+
+## Related Architectures
+
+* [Three-Tier LAMP on Kubernetes/OpenShift](../three-tier-lamp-kubernetes/index.md) —
+  containerizes the Web and Application tiers from this architecture while
+  keeping the Database tier unchanged.
