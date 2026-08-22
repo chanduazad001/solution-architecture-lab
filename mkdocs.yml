@@ -49,3 +49,31 @@ nav:
           - Security: architecture/three-tier-lamp-kubernetes/security.md
           - Availability: architecture/three-tier-lamp-kubernetes/availability.md
           - Decisions: architecture/three-tier-lamp-kubernetes/decisions.md
+
+  - System Design:
+      - Overview: system-design/index.md
+      - Fundamentals: system-design/fundamentals/index.md
+      - Requirements & Estimation: system-design/requirements-estimation/index.md
+      - Core Building Blocks: system-design/building-blocks/index.md
+      - Scalability: system-design/scalability/index.md
+      - Availability & Reliability: system-design/availability-reliability/index.md
+      - Distributed Systems: system-design/distributed-systems/index.md
+      - Data & Databases: system-design/data-databases/index.md
+      - Caching: system-design/caching/index.md
+      - Messaging & Events: system-design/messaging-events/index.md
+      - APIs & Communication: system-design/apis-communication/index.md
+      - Security: system-design/security/index.md
+      - Observability: system-design/observability/index.md
+      - Resilience: system-design/resilience/index.md
+      - Design Patterns: system-design/design-patterns/index.md
+      - Architecture Decision Making: system-design/decision-making/index.md
+      - Case Studies:
+          - Overview: system-design/case-studies/index.md
+          - URL Shortener:
+              - Overview: system-design/case-studies/url-shortener/index.md
+              - Architecture: system-design/case-studies/url-shortener/architecture.md
+              - Data Flow: system-design/case-studies/url-shortener/data-flow.md
+              - Security: system-design/case-studies/url-shortener/security.md
+              - Availability: system-design/case-studies/url-shortener/availability.md
+              - Decisions: system-design/case-studies/url-shortener/decisions.md
+      - Interview Preparation: system-design/interview-preparation/index.md
