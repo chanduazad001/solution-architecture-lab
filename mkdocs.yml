@@ -1,10 +1,10 @@
-site_name: Architecture Lab
+site_name: Solution Architecture Lab
 site_description: Cloud Architecture, Platform Engineering, DevSecOps and AI
 site_author: Chandra Sekhar Merugu
-site_url: https://chanduazad001.github.io/architecture-lab/
+site_url: https://chanduazad001.github.io/solution-architecture-lab/
 
-repo_name: chanduazad001/architecture-lab
-repo_url: https://github.com/chanduazad001/architecture-lab
+repo_name: chanduazad001/solution-architecture-lab
+repo_url: https://github.com/chanduazad001/solution-architecture-lab
 edit_uri: edit/master/docs/
 
 theme:

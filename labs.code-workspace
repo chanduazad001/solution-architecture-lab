@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "solution-architecture-lab",
+			"path": "."
+		},
+		{
+			"name": "cybersecurity-architecture-lab",
+			"path": "../cybersecurity-architecture-lab"
+		},
+		{
+			"name": "chanduazad001.github.io",
+			"path": "../chanduazad001.github.io"
+		}
+	],
+	"settings": {}
+}

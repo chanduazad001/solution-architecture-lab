@@ -20,7 +20,7 @@ leadership, infrastructure automation, security, and vulnerability
 management** — with a focus on designing reliable, scalable, and secure
 enterprise platforms.
 
-This Architecture Lab is where I turn that experience into deliberate
+This Solution Architecture Lab is where I turn that experience into deliberate
 architecture practice: designing solutions, documenting constraints,
 evaluating trade-offs, and recording the reasoning behind architectural
 decisions.
@@ -181,4 +181,4 @@ DevSecOps · Cloud · AI Infrastructure**
 
 ---
 
-*Architecture Lab — Chandra Sekhar Merugu*
+*Solution Architecture Lab — Chandra Sekhar Merugu*

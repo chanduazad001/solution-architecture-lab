@@ -625,7 +625,7 @@ Store architecture documentation, diagrams, and related source files in Git.
 The repository is:
 
 ```text
-architecture-lab
+solution-architecture-lab
 ```
 
 MkDocs is used to publish the documentation.
