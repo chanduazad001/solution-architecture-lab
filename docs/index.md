@@ -168,6 +168,13 @@ DevSecOps · Cloud · AI Infrastructure**
 
 ---
 
+## Related
+
+* [chanduazad001.github.io](https://chanduazad001.github.io/) — all labs
+* [Cybersecurity Architecture Lab](https://chanduazad001.github.io/cybersecurity-architecture-lab/) — application, cloud, and enterprise security architecture
+
+---
+
 > **Architecture is not just about drawing systems.  
 > It is about making intentional decisions, understanding trade-offs,
 > and building systems that can evolve.**

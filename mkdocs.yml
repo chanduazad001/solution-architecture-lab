@@ -19,6 +19,9 @@ theme:
 plugins:
   - search
 
+extra:
+  homepage: https://chanduazad001.github.io/
+
 markdown_extensions:
   - admonition
   - attr_list

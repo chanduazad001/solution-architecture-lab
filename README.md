@@ -6,6 +6,10 @@ trade-offs, and the reasoning behind architectural decisions.
 
 **Published site:** https://chanduazad001.github.io/architecture-lab/
 
+Part of a wider set of labs linked from
+[chanduazad001.github.io](https://chanduazad001.github.io/), including
+[Cybersecurity Architecture Lab](https://chanduazad001.github.io/cybersecurity-architecture-lab/).
+
 ## Structure
 
 Each architecture lives under `docs/architecture/<name>/` and follows the
