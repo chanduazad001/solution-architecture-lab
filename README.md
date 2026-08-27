@@ -1,14 +1,16 @@
 # Solution Architecture Lab
 
-Cloud architecture, platform engineering, DevSecOps and AI infrastructure —
-documented as deliberate architecture practice: designs, constraints,
-trade-offs, and the reasoning behind architectural decisions.
+Cloud architecture, platform engineering, and system design — documented
+as deliberate architecture practice: designs, constraints, trade-offs, and
+the reasoning behind architectural decisions.
 
 **Published site:** https://chanduazad001.github.io/solution-architecture-lab/
 
 Part of a wider set of labs linked from
 [chanduazad001.github.io](https://chanduazad001.github.io/), including
-[Cybersecurity Architecture Lab](https://chanduazad001.github.io/cybersecurity-architecture-lab/).
+[Cybersecurity Architecture Lab](https://chanduazad001.github.io/cybersecurity-architecture-lab/)
+and
+[AI Platform Architecture Lab](https://chanduazad001.github.io/ai-platform-architecture-lab/).
 
 ## Structure
 
