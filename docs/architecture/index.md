@@ -1,4 +1,4 @@
-# Architecture
+# Solution Architecture
 
 Each architecture in this lab is a deliberate case study, documented with
 the same discipline: **Overview → Architecture → Data Flow → Security →
